@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="nssnc" Class="searchCriteriaDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=sql-shark.cybersharks.net;Initial Catalog=nssnc;User ID=jlegacy" SettingsObjectName="LoadNeuseCSV.Properties.Settings" SettingsPropertyName="nssncConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.searchcriteria" Member="searchcriterias">
+    <Type Name="searchcriteria">
+      <Column Name="scID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="scOrder" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="scGroup" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="scWorkingName" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="scName" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="scName2" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="scName3" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="scLogo" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="scURL" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="scURL2" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="scURL3" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="scEmail" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="scDescription" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="scDescription2" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="scDescription3" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="scNotes" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
